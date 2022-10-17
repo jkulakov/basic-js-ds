@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 class Stack {
   constructor() {
-    this.stack = [1, 2];
+    this.stack = [];
   }
 
   push(element) {
